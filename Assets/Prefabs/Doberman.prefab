@@ -4938,6 +4938,7 @@ GameObject:
   - component: {fileID: 4120835469253274278}
   - component: {fileID: 4999573575722803708}
   - component: {fileID: 229962783096682989}
+  - component: {fileID: -3964395149057909356}
   - component: {fileID: 6163393399016659254}
   m_Layer: 0
   m_Name: Doberman
@@ -5045,6 +5046,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cdc7afb80feb408167545a9929faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!114 &-3964395149057909356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447677733763425229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e2edfefa0a18b41bb2dc65b8b28fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!65 &6163393399016659254
 BoxCollider:
   m_ObjectHideFlags: 0

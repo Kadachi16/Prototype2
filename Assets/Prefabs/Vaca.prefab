@@ -1640,6 +1640,7 @@ GameObject:
   - component: {fileID: 8166343326771913145}
   - component: {fileID: 3596868889984805537}
   - component: {fileID: -1460200429154917170}
+  - component: {fileID: 7004886136872537131}
   - component: {fileID: 5673248105225412951}
   m_Layer: 0
   m_Name: Vaca
@@ -1711,6 +1712,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cdc7afb80feb408167545a9929faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!114 &7004886136872537131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223913773408885332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e2edfefa0a18b41bb2dc65b8b28fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!65 &5673248105225412951
 BoxCollider:
   m_ObjectHideFlags: 0
