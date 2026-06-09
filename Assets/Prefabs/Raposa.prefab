@@ -1116,6 +1116,7 @@ GameObject:
   - component: {fileID: 5057787934949602182}
   - component: {fileID: 492723497346029531}
   - component: {fileID: 919216306805264785}
+  - component: {fileID: 8487257717251028148}
   m_Layer: 0
   m_Name: Raposa
   m_TagString: Untagged
@@ -1197,3 +1198,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234cdc7afb80feb408167545a9929faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &8487257717251028148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9034699058507408496}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.069083236, y: 0.21037336, z: 0.31722617}
+  m_Center: {x: -0.00016332716, y: 0.100520305, z: 0.009683347}
