@@ -1639,6 +1639,7 @@ GameObject:
   - component: {fileID: 3986407602857575301}
   - component: {fileID: 8166343326771913145}
   - component: {fileID: 3596868889984805537}
+  - component: {fileID: -1460200429154917170}
   m_Layer: 0
   m_Name: Vaca
   m_TagString: Untagged
@@ -1697,6 +1698,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 5
+--- !u!114 &-1460200429154917170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223913773408885332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234cdc7afb80feb408167545a9929faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!1 &8331190412191983411
 GameObject:
   m_ObjectHideFlags: 0
